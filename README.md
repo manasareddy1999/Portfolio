@@ -46,6 +46,8 @@ df=df[df[‘adr’]<5000] because it only one value above 5000
 Data Analysis and visualizations
 
 The graph is plot to see percentage of canceled and not canceled
+![graph](https://user-images.githubusercontent.com/124489708/229761228-08839513-dd91-46a7-868c-a9b9e55e6ea0.png)
+
 
 The accompanying bar graph shows the percentage of reservations that are canceled and those that are not. It is obvious that are still a significant number of reservations that have not been cancelled. these are still 37% of clients who canceled thier reservations which has a significant impact on the hotel’s earnings.
 
