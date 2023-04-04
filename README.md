@@ -1,6 +1,6 @@
 
 # Portfolio
-#INTRODUCTION OF PROJECT
+## INTRODUCTION OF PROJECT
 
  This is data set which contains information is City hotel and Resort hotel have seen high cancellation rates.Each hotel is now dealing with a number of issues as a result, including fewer revenues and less thn ideal hotel room use.
  
@@ -18,18 +18,14 @@
  
 ## Code and Resources Used
  
-import numpy as np
++ import numpy as np
++ import pandas as pd
++ import matplotlib.pyplot as plt
++ import warnings
++ warnings.filterwarnings(‘ignore’)
++ import seaborn as sns
 
-import pandas as pd
-
-import matplotlib.pyplot as plt
-
-import warnings
-warnings.filterwarnings(‘ignore’)
-
-import seaborn as sns
-
-pd.read_csv(‘/content/drive/MyDrive/hotel_bookings 2.csv’)
+![pd.read_csv](‘/content/drive/MyDrive/hotel_bookings 2.csv’)
 
 ## Data Cleaning
 
@@ -75,6 +71,8 @@ Now,let’s see which country has the highest reservation canceled.the top count
 
 
 Lets check the area from where guests are visiting the hotels and making reservatios.Is it coming from Direct or Groups, Online or Offline Travel Agents? Around 46% of the clients from online travel agencies ,whereas 27% come from groups .Only 4% of clients book hotels directly by visiting them and making reservations
+![graph7](https://user-images.githubusercontent.com/124489708/229764329-b1552b10-9f70-4599-9b56-67ac77b9e753.png)
+
 
 As seen in graph ,reservations are canceled when the average daily rate on higher than when it is not canceled. it clearly proves all the above analysis, that the higher prices leads to higher cancellation.
 
