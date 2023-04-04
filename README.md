@@ -10,7 +10,9 @@
  RESEARCH QUESTION
  
  1.What are the variables that affect hotels reservation cancellations ?
+ 
  2.how can we mke hotel reservations cancellations better?
+ 
  3.how will hotels be assisted in making pricing and promotional decisions ?
  
  
